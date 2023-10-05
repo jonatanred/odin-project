@@ -66,6 +66,8 @@ main p {
     border: none;
     cursor: pointer;
     margin-top: 5px;
+    height: 40px;
+    width: 100px;
 }
 
 .btn:hover {
@@ -84,80 +86,81 @@ main p {
 
 .section1 h1 {
     font-weight: 700;
+    font-size: 36px;
 }
 
 .divs {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    border: 3px solid red;
-}
-
-.div1 {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    width: 200px;
+    align-items: center;
     height: 200px;
-    border: 3px solid red;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .contentDiv1 {
-    border: 3px solid #3882F6;
-    border-radius: 5px;
-    height: 150px;
-    width: 150px;
-}
-
-.div2 {
-    width: 200px;
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.div1 {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 
 .contentDiv2 {
-    border: 3px solid #3882F6;
-    border-radius: 5px;
-    height: 150px;
-    width: 150px;
-}
-
-.div3 {
-    width: 200px;
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.div2 {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 
 .contentDiv3 {
-    border: 3px solid #3882F6;
-    border-radius: 5px;
-    height: 150px;
-    width: 150px;
-}
-
-.div4 {
-    width: 200px;
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.div3 {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 
 .contentDiv4 {
-    border: 3px solid #3882F6;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.div4 {
     height: 150px;
     width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 
 /* section2 */
