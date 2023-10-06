@@ -30,6 +30,10 @@ header .navbar ul li {
     text-transform: uppercase;
 }
 
+#icon {
+    display: none;
+}
+
 /* main */
 
 main {
@@ -210,4 +214,46 @@ footer {
     text-align: center;
     height: 70px;
     width: 100%;
+}
+
+@media only screen and (max-width: 450px) {
+    /* navbar */
+
+header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    height: 50px;
+    width: 100%;
+    color: #FFF;
+    border-bottom: 3px solid black;
+}
+
+header .navbar ul {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+header .navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#icon {
+    display: block;
+    margin: 20px;
+}
+
 }
